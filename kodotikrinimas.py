@@ -7,7 +7,10 @@ class KodoTikrinimas:
     def pavienis_kodas(self, asmens_kodas):
         "Gražina asmens kodą saraše."
         self.asmens_kodas = asmens_kodas
+<<<<<<< HEAD
         self.pavienis.clear()
+=======
+>>>>>>> f18ee2ac6636fc3fa9a97833210d4cab42622813
         for x in asmens_kodas:
             self.pavienis.append(int(x))
         return self.pavienis
